@@ -17,7 +17,7 @@ A curated collection of official competition instances, community-created datase
 | `more_pizza` | 2020 Practice | 5 | – | 5 |
 | `one_pizza` | 2022 Practice | 5 | – | 5 |
 | `optimize_a_data_center` | 2015 Qualification | 1 | – | 1 |
-| `photo_slideshow` | 2019 Qualification | 5 | 45 synthetic + 10 real-life [[Arbneshi2023]](#ref-arbneshi2023) ⚠️ | 60 |
+| `photo_slideshow` | 2019 Qualification | 5 | 45 synthetic + 10 real-life [[Arbneshi2023]](#ref-arbneshi2023) | 60 |
 | `pizza` | 2017 Practice | 4 | – | 4 |
 | `router_placement` | 2017 Final | 4 | – | 4 |
 | `santa_tracker` | 2022 Final | 6 | – | 6 |
@@ -73,16 +73,18 @@ A curated collection of official competition instances, community-created datase
 
 ### `photo_slideshow` (Hash Code 2019, Qualification)
 
-| Dataset | Instances | Reference | Availability |
-|---|:---:|---|---|
-| Official Google instances | 5 | [[HashCodeArchive]](#ref-archive), [[Google2019]](#ref-google2019) | Public |
-| Synthetic instances | 45 | [[Arbneshi2023]](#ref-arbneshi2023) | ⚠️ Not published |
-| Real-life instances | 10 | [[Arbneshi2023]](#ref-arbneshi2023) | ⚠️ Not published |
+**Download:** https://www.kaggle.com/datasets/uranla/hash-code-2019-photo-slideshow-synthetic-set
+
+| Dataset | Instances | Reference |
+|---|:---:|---|
+| Official Google instances | 5 | [[HashCodeArchive]](#ref-archive), [[Google2019]](#ref-google2019) |
+| Synthetic instances | 45 | [[Arbneshi2023]](#ref-arbneshi2023) |
+| Real-life instances | 10 | [[Arbneshi2023]](#ref-arbneshi2023) |
 
 - **Official:** `a_example`, `b_lovely_landscapes`, `c_memorable_moments`, `d_pet_pictures`, `e_shiny_selfies`. They contain 1,000 to 90,000 photos with an average of 9.4 to 19.1 tags per photo.
 - **Synthetic:** 50 to 100,000 photos with about 15 tags per photo. Naming convention: `P<photos>_H<horizontal>_V<vertical>`.
 - **Real-life:** about 97 photos per instance on average, with about 4 tags per photo. The photos come from [Unsplash](https://unsplash.com/), and the tags were extracted with the TensorFlow Object Detection API.
-- Both sets were produced with the web generator at [slideshow.instance.generator.erzen.tk](https://slideshow.instance.generator.erzen.tk/). The instance files themselves are not included with the paper or its code repository ([labeatarbneshi/photo-slideshow](https://github.com/labeatarbneshi/photo-slideshow)).
+- Both sets were produced with the web generator at [slideshow.instance.generator.erzen.tk](https://slideshow.instance.generator.erzen.tk/). The instance files are not included with the paper or its code repository ([labeatarbneshi/photo-slideshow](https://github.com/labeatarbneshi/photo-slideshow)); they are published in the Kaggle dataset above with the authors' permission.
 
 <details>
 <summary>List of the 45 synthetic instances</summary>
